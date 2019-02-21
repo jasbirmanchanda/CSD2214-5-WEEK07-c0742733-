@@ -6,10 +6,10 @@
     <link href="css/default.css" rel="stylesheet" />
 
     <script>
-        function animals() {
+         
             var bird = {
                 genus: "corvus",
-                species: "corvax",
+                "species": "corvax",
                 commonName: "raven",
                 callType: "sqawky",
                 quote: "Nevermore",
@@ -29,16 +29,18 @@
                 deadly: true
             };
 
-            return bird.genus;
-        }
-
+        bird.clr = "red";
+        delete bird.clr;
+        
+        
 
     </script>
 
 </head>
 <body>
     <script src="js/main.js"></script>
-    <script>document.write(animals());
-    </script>
+    //<script>
+        alert(bird.clr);
+    //</script>
 </body>
 </html>
