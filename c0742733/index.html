@@ -37,13 +37,25 @@
         sparrow = bird;
         sparrow.quote = "moreover";
 
+        var subjects = [
+            'maths',
+            'science',
+            'physics',
+            'bio'
+        ];
+
+
+
     </script>
 
 </head>
 <body>
     <script src="js/main.js"></script>
-    //<script>
-        alert(bird.quote);
-    //</script>
+    <script>
+        alert(subjects);
+        alert("No of subjects are" + subjects.length);
+        alert(subjects[2]);
+        document.write(subjects);
+    </script>
 </body>
 </html>
