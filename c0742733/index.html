@@ -4,9 +4,41 @@
     <meta charset="utf-8" />
     <title>c0742733</title>
     <link href="css/default.css" rel="stylesheet" />
+
+    <script>
+        function animals() {
+            var bird = {
+                genus: "corvus",
+                species: "corvax",
+                commonName: "raven",
+                callType: "sqawky",
+                quote: "Nevermore",
+                maxOffspring: 5,
+                noisy: true,
+                deadly: false
+            };
+
+            var bear = {
+                genus: "ursus",
+                species: "arctos",
+                commonName: "brown-bear",
+                callType: "roar",
+                quote: "",
+                maxOffspring: 3,
+                noisy: true,
+                deadly: true
+            };
+
+            return bird.genus;
+        }
+
+
+    </script>
+
 </head>
 <body>
-    <div>Content goes here!</div>
     <script src="js/main.js"></script>
+    <script>document.write(animals());
+    </script>
 </body>
 </html>
